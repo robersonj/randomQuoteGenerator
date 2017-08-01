@@ -1,3 +1,8 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+}
+
 #author {
     font-size: 45px;
     font-family: 'Mrs Saint Delafield', cursive;
@@ -6,10 +11,6 @@
 #quote {
     font-size: 30px;
     font-family: 'Bellefair', serif;
+    margin: 0 100px;
 }
 
-#author::before {
-    font-family: 'Mrs Saint Delafield', cursive;
-    content: "—";
-    margin-bottom:25px;
-}
