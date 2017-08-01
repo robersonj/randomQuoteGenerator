@@ -15,3 +15,20 @@ body {
     margin: 0 150px;
 }
 
+@media only screen and (max-width: 480px) {
+    #quote {
+        font-size: 22px;
+        margin: 0 25px;
+    }
+    
+    #author {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    #quote {
+        margin: 0 25px;
+    }
+}
+
