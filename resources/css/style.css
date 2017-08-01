@@ -1,0 +1,15 @@
+#author {
+    font-size: 45px;
+    font-family: 'Mrs Saint Delafield', cursive;
+}
+
+#quote {
+    font-size: 30px;
+    font-family: 'Bellefair', serif;
+}
+
+#author::before {
+    font-family: 'Mrs Saint Delafield', cursive;
+    content: "—";
+    margin-bottom:25px;
+}
