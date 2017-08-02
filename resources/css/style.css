@@ -1,6 +1,16 @@
 body {
+    background-image: url(../images/mountain.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     text-align: center;
-    padding-top: 175px;
+    padding-top: 10;
+    margin: 0;
+    height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 
@@ -19,6 +29,11 @@ body {
     margin: 15px 40px;
 }
 
+.txt-container {
+   
+    margin: 0;
+    padding: 100px 0;
+}
 
 
 
